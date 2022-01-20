@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-est",
+  "version": "1.0.0",
+  "description": "Vitepress'i eestikeelne juhend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "Jubejuss",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.21.6"
+  }
+}
