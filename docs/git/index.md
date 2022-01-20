@@ -10,7 +10,10 @@
 - Loo Githubis uus repo, jäta vaikimis valikud
 - vaata githubis avanenud õpetust ja kasuta sealt:
 - terminalis: `git init`
+- `git add. `
 - `git commit -m "first commit"`
+- `git branch -M main`
+- `git remote add origin git@github.com:jubejuss/vitepress-est.git`
 
 Terminalis:
 
