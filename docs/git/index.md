@@ -16,7 +16,3 @@
 - `git remote add origin sinugitiaadress/sinurepo.git`
 
 Terminalis:
-
-```bash
-
-```
