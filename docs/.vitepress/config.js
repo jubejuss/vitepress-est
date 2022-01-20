@@ -1,5 +1,6 @@
 module.exports = {
   title: "Vitepress'i õpe", // appended to all page titles
+  base: '/',
 
   themeConfig: {
     nav: [
