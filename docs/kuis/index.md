@@ -64,7 +64,7 @@ npm run dev
 
 ja avame veebibrauseris oma lehe aadressil: `http://localhost:3000/`
 Kui kõik hästi, peaksite nägema umbes sellist tulemust:
-![Veeb püsti](01.jpg)
+![alt](./01.jpg)
 
 Vitepressi leht jaguneb kolmeks – menüüriba, vasakul asetsev külgriba ning sisuosa.
 
@@ -93,7 +93,7 @@ isegi see läheb küljemenüüsse
 ```
 
 Saate umbes sellise veebilehe, kus pealkirjad ka küljeribal ning need on ka klikatavad:
-![Küljeribaga](02.jpg)
+![Küljeribaga](./02.jpg)
 
 ### Lehe nimi ja muud tähtsad parameetrid
 
@@ -110,7 +110,7 @@ module.exports = {
 ```
 
 Nüüd peaksite nägema, et menüüribal vasakul olev tekst muutus:  
-![lehe nimi](03.jpg)  
+![lehe nimi](./03.jpg)  
 Hiljem lisame siia ka logo.
 
 ### Menüüriba
@@ -121,7 +121,7 @@ Esmalt tekitame erinevad jaotused, ehk loome `docs` kausta alamkaustad ja sisud.
 
 Kõigisse md failidesse kirjiutame ka midagi – `# pealkiri`, ehk h1 pealkiri ning järgmistele ridadele mingi sisutekst.  
 Sellega on meil `docs` kaustas `asjad` kaust, milles omakorda sellised failid:
-![kaustad](04.jpg)
+![kaustad](./04.jpg)
 
 Nüüd saame luua menüüriba.  
 Selleks lisame `config.js` faili:
@@ -140,7 +140,7 @@ module.exports = {
 ```
 
 Säherduse tegevuse tagajärjel tekibki meile üles paremale menüüriba ja muidugi ka asjad lehe index.md sisu:
-![menüüriba](05.jpg)
+![menüüriba](./05.jpg)
 
 ### Küljeribale erinevad leheküljed
 
@@ -169,7 +169,7 @@ module.exports = {
 Nagu aru võite saada, öeldakse `text:` võtmega lingi nimi ja `link:` võtmega aadress, kuhu klikates liikuda. Need on siis meie failide nimed ja asukohad.
 
 Selle tegevuse tagajärjel kuvatakse küljeribal meie poolt lisatud lingid:
-![sidebar](06.jpg)
+![sidebar](./06.jpg)
 
 Ainus jama, et need on nüüd kõikidel lehtedel, mitte vaid `Asjad` menüüjaotuses.
 
