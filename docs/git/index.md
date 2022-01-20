@@ -13,7 +13,7 @@
 - `git add. `
 - `git commit -m "first commit"`
 - `git branch -M main`
-- `git remote add origin git@github.com:jubejuss/vitepress-est.git`
+- `git remote add origin sinugitiaadress/sinurepo.git`
 
 Terminalis:
 
