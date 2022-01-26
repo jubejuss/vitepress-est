@@ -17,3 +17,6 @@
 
 Juhul kui su jälgitavad failid on ära käsššitud, siis saa cache, enne git pushi puhtaks käsuga `git rm -r --cached .`  
 Seejärel juba tavapärane git add, commit, push.
+
+# Test
+pest
