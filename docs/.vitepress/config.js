@@ -2,6 +2,7 @@ const kuisSidebar = [
   { text: "Ülesseadmine", link: "/kuis/" },
   { text: "Deploy", link: "/kuis/deploy" },
   { text: "Navigatsioon", link: "/kuis/navi" },
+  { text: "Pildid ja lingid", link: "/kuis/links" },
 ]
 
 module.exports = {
@@ -16,8 +17,7 @@ module.exports = {
     ],
     sidebar:
         {
-            "/kuis/": kuisSidebar,
-            "/kuis/deploy": kuisSidebar,
+            "/": kuisSidebar,
         },
   },
 };
