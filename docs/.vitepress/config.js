@@ -17,7 +17,7 @@ module.exports = {
     ],
     sidebar:
         {
-            "/": kuisSidebar,
+            "/kuis/": kuisSidebar,
         },
   },
 };
