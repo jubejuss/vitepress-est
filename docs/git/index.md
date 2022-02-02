@@ -10,7 +10,7 @@
 - Loo Githubis uus repo, jäta vaikimis valikud
 - vaata githubis avanenud õpetust ja kasuta sealt:
 - terminalis: `git init`
-- `git add. `
+- `git add .`
 - `git commit -m "first commit"`
 - `git branch -M main`
 - `git remote add origin sinugitiaadress/sinurepo.git`
@@ -19,4 +19,5 @@ Juhul kui su jälgitavad failid on ära käsššitud, siis saa cache, enne git p
 Seejärel juba tavapärane git add, commit, push.
 
 # Test
+
 pest

@@ -6,4 +6,4 @@ Vitepress on Vuepressi edasiarendus, mis baseerub [Vite'l](https://www.vuemaster
 
 Vitepress kasutab sisuloomiseks markdown keelt, see on siinse õpikeskkonna teine pluss (hetkel ei meenu, mis see esimene oli)
 
-[Õpetus](/kuis/)
+[Õpetus](/kuis/) 
