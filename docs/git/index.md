@@ -14,6 +14,7 @@
 - `git commit -m "first commit"`
 - `git branch -M main`
 - `git remote add origin sinugitiaadress/sinurepo.git`
+- `git push -u origin main`
 
 Juhul kui su jälgitavad failid on ära käššitud, siis saab cache, enne git pushi puhtaks käsuga `git rm -r --cached .`  
 Seejärel juba tavapärane git add, commit, push.
