@@ -43,7 +43,7 @@ Oma projekti juurkataloogi loome faili `deploy.sh`, millesse kirjutame vajalikud
 set -e
 
 # loo staatiline veebileht
-npm run build
+npm run docs:build
 
 # liigu loodu kausta
 cd docs/.vitepress/dist
@@ -54,7 +54,7 @@ git add -A
 git commit -m 'deploy'
 
 # saada leht githubi, gh-pages branchi
-git push -f git@github.com:jubejuss/mm20doku.git master:gh-pages
+git push -f git@github.com:jubejuss/mm20doku.git main:gh-pages
 
 #liigu tagasi
 cd -
