@@ -36,9 +36,9 @@ Et Vitepress käivitada, peame `npm init` käsu tagajärjel tekitatud `package.j
 
 ```javascript
 "scripts": {
-  "dev": "vitepress dev docs",
-  "build": "vitepress build docs",
-  "serve": "vitepress serve docs"
+  "docs:dev": "vitepress dev docs",
+  "docs:build": "vitepress build docs",
+  "docs:serve": "vitepress serve docs"
 }
 ```
 
